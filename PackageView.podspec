@@ -18,14 +18,15 @@ Pod::Spec.new do |s|
   s.name         = "PackageView"
   s.version      = "0.0.1"
   s.ios.deployment_target = '8.0'
-  s.homepage = "https://github.com/tryFighting"
+  s.homepage = "https://github.com/tryFighting/MyCocoaPodsDemo"
   s.social_media_url = 'http://www.cnblogs.com/tryFighting/'
   s.license = "MIT"
+  s.summary = '测试公有库'
   s.author = {"tryFighting" =>"2893381320@qq.com"}
   s.source = {:git =>'https://github.com/tryFighting/MyCocoaPodsDemo.git',:tag=>s.version}
   s.requires_arc = true
   s.source_files = 'SuccessOrEroorView/*'
-  
+  s.description = 'CocoapodsPulicDemo'  
   s.summary      = "A short description of PackageView."
 
   # This description is used to generate tags and improve search results.
