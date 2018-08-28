@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "PackageView"
-  s.version      = "v0.0.1"
+  s.version      = "0.0.1"
   s.ios.deployment_target = '8.0'
   s.homepage = "https://github.com/tryFighting/MyCocoaPodsDemo"
   s.social_media_url = 'http://www.cnblogs.com/tryFighting/'
